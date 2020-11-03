@@ -1,4 +1,4 @@
-# MSP430_Snake
+# MSP430_Projects
 C/Assembly-Language/MSP430(MicroController)
 
 # DESCRIPTION

@@ -1,4 +1,26 @@
-#include <msp430.h> 
+/*
+ *
+ *MatrixKeypad-Decoding
+ *
+ *A 4x4 matrix keypad, there are four column pins, four row pins,
+ *and thus eight pins altogether.Each row is connected by a push button
+ *to every column and vice versa. There will be debouncing of buttons in order to
+ *receive consistent input from the keypad. The use of interrupts and timers are efficient
+ *on the Launchpad.
+ *
+ *CalculatorFunctions:
+ *Addition
+ *Subtraction
+ *Multiplication
+ *Division
+ *Pop
+ *Push
+ *
+ */
+
+
+
+#include <msp430.h>
 #include <stdio.h>
 #include <stdint.h>
 #include <math.h>
